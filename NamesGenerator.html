@@ -1,15 +1,59 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <script src="NamesGenerator.js"></script>
-    <link href="styles.css" rel="stylesheet" type="text/css">
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
 <body>
-  <center>
+  <div class="app_title">
+    <h1>
+      <i>Генератор Имен v2.0</i>
+    </h1>
+  </div>
+  <div class="app_description">
+    <h3>
+      <i>
+        Здесь вы можете выбрать имя для своего ребенка,питомца..и многих других.</br>
+        Также вы можете выбрать национальность,что бы определить подходящее для вас имя.</br>
+        Также вы можете определить харктер по выбранному имени.
+      </i>
+    </h3>
+  </div>
+  
+  <div class="app_controls">
+    <h4>
+      <i>Нажмите на кнопку,чтобы начать процесс подбора имени.</i>
+    </h4>
     <input type="button" onclick="GenerateMaleName()" value="Генерировать мужское имя" class="GenerateMaleNameButton"/>
     <input type="button" onclick="GenerateFemaleName()" value="Генерировать женское имя" class="GenerateFemaleNameButton"/>
     <h1 id="resultName"></h1>
-  </center>
+  </div>
+
+  <!-- <h4>
+    <center><i><br>Введите ваше имя сюда,что бы узнать характер вашего имени.</i></center>
+  </h4>
+  <br> -->
   
+  <div class="authors">
+    <h4>
+    <i>
+      <br>
+      <br>
+      Для вас работали:
+    </i>
+    </h4>
+    <a href=https://vk.com/id565819972> Анна Орехова-автор кода генерации имен.</a>
+    <br>
+    <a href=https://vk.com/mymii_troll> Илья Шарифов--дизайнер сайта.</a>
+    <br>
+    Сергей Орехов-соавтор кода
+    <br>
+    <br>
+    <i>Внимание!Данный сайт был создан для проекта вышеуказанными людьми из группы IT-32 ДЮЦ "Кванториум".</i>
+  </div>
+  
+  <script src="NamesGenerator.js">
+  </script>
 </body>
 </html>

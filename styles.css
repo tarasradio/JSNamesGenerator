@@ -21,3 +21,23 @@
   display: inline-block;
   font-size: 16px;
 }
+
+body {
+  background-color: #FFF8DC;
+}
+
+.authors {
+  text-align: center;
+}
+
+.app_title {
+  text-align: center;
+}
+
+.app_description {
+  text-align: center;
+}
+
+.app_controls {
+  text-align: center;
+}
